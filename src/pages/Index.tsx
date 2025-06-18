@@ -1,11 +1,9 @@
-
 import React, { useState, useEffect } from 'react';
 import CampaignDashboard from '@/components/CampaignDashboard';
 import AnalyticsDashboard from '@/components/AnalyticsDashboard';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { RefreshCw } from 'lucide-react';
-import { campaignService } from '@/services/campaignService';
 import { analyticsService } from '@/services/analyticsService';
 
 const Index = () => {
